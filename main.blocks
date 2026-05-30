@@ -1,0 +1,7 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="3GCYp!kbg~;=Y9W%9i%I">is_breathing</variable><variable id="p}?layjgFzQ9B(vvB)4m">strip</variable><variable id="?i*a^_GO3l|t7~9Ax~Va">bpm</variable><variable id="|hnZJkNkg-tuH!2bir?6">raw_input_value</variable><variable id="]cE.Njq^rRosZV.KiGA0">SENSOR_PIN</variable><variable id="YaP.+Z$,shH6T:6zIDiE">loop_counter</variable><variable id="A}`AppiQPH3;7Q:?X,^f">pulse_change</variable><variable id="uQn)IIv[toEdb:=u5hHT">RAW_BASELINE</variable><variable id="8uPftzp(5`*$}Z#?1^kk">TRIGGER_DELTA</variable><variable id="AsJ$X6x|%+Ztl;L(!0}b">is_peak</variable><variable id="1+0Rn+W-N$xGq$zhB3]$">time_gap_ms</variable><variable id="nP+V^0##PLY)ss:Wb5E[">SAMPLE_DELAY_MS</variable><variable id="#BBDwWM?^Kbl($j#XSQq">calculated_heart_rate</variable><variable id="G1?Y^jBpFS,SIT(}jE@m">LED_COUNT</variable><variable id="hqb7/aK!6HM[b.Bn(L_e">SIGNAL_PIN</variable><variable id="Pf;l2cwY#W-Wks;^Wv]D">DELAY_MS</variable><variable id=".gQ87KX6kYsAH6!6zV$]">MAX_BRIGHTNESS</variable></variables><comment id="o4COxB*!Rom(#,z}}CIj" x="0" y="0" w="450" h="120">
+2% spike detection line (317 * 0.02 approx 6)
+</comment><comment id="@m,X^+BM7%L8KX03`2;h" x="2540" y="20" w="230" h="120">
+--- STATE VARIABLES ---
+</comment><comment id="0G^Y^Tc[e`bhW=p4pxPc" x="0" y="0" w="480" h="120">
+Starts at a safe default under the 60 BPM trigger limit
+</comment></xml>
